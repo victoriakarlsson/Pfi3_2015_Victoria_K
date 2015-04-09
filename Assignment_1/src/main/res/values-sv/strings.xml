@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="Get_quote">Få citat</string>
+    <string name="Rubrik">Nalle Puh citat</string>
+    <string name="Your_quote">ditt citat</string>
+    <string name="action_settings">inställningar</string>
+    <string name="app_name">min applikation</string>
+    <string name="hello_world">hej världen</string>
+
+
+    <string-array name="myQuotes">
+
+        <item>
+            “Om du blir hundra år gammal, vill jag bli hundra år minus en dag så att jag aldrig behöver leva en dag
+            utan dig.”
+        </item>
+
+        <item>
+        “Jag tror vi drömmer så att vi aldrig behöver vara ifrån varandra särskilt länge. Om vi är
+            i varandras drömmar är vi alltid tillsammans.”
+        </item>
+
+        <item>
+        “Jag är inte vilse för jag vet var jag är. Dock så kanske var jag är är vilse.
+           ”
+
+        </item>
+
+          <item>
+        “Ingen kan vara olycklig med en ballong”
+
+        </item>
+
+           <item>
+        “Om du blir hundra år gammal, vill jag bli hundra år minus en dag så att jag aldrig behöver leva en dag
+            utan dig.”
+
+        </item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Get_quote"> Get quote</string>
+    <string name="Rubrik">Winnie the Pooh quotes</string>
+    <string name="Your_quote"> Your quote</string>
+
+    <string-array name="myQuotes">
+
+        <item>
+            “If you live to be a hundred, I want to live to be a hundred minus one day so I never
+            have to live without you.”
+        </item>
+
+        <item>
+        “I think we dream so we don’t have to be apart for so long. If we’re in each other’s dreams,
+            we can be together all the time.”
+        </item>
+
+        <item>
+        “I am not lost for I know where I am. But however, where I am may be lost.”
+
+        </item>
+
+          <item>
+        “Nobody can be uncheered with a balloon.”
+
+        </item>
+
+           <item>
+        “If you live to be a hundred, I want to live to be a hundred minus one day so
+               I never have to live without you.”
+
+        </item>
+
+    </string-array>
+
+
+</resources>

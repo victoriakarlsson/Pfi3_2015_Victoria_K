@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.victoria.myapplication.SkanetrafikenStart"
+    android:id="@+id/relativestart"
+    style="@style/AppTheme"
+    android:background="#ffffff"
+    android:padding="16dp"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Från:"
+        android:textSize="18dp"
+        android:id="@+id/textView5"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView6" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="Skriv in hållplats"
+        android:textSize="18dp"
+
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/till"
+        android:id="@+id/textView6"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_gravity="center"
+        android:hint="Skriv in destination"
+        android:layout_marginLeft="28dp"
+        android:textSize="18dp"
+        android:paddingTop="16dp"
+        android:layout_below="@+id/editText"
+        android:layout_toRightOf="@+id/textView6"
+         />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ankomst"
+        android:id="@+id/radioButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginBottom="175dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/avgång"
+        android:id="@+id/radioButton2"
+        android:layout_alignTop="@+id/radioButton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tiddatum"
+        android:id="@+id/textView7"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/radioButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/justnu"
+        android:id="@+id/textView8"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignStart="@+id/radioButton2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Andra2"
+        android:id="@+id/button"
+
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/radioButton2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trafikslag"
+        android:id="@+id/textView9"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignStart="@+id/textView7" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Andra1"
+
+        android:id="@+id/button2"
+        android:layout_above="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favoritsok"
+        android:id="@+id/textView10"
+        android:textSize="18dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/radioButton2"
+        android:layout_alignStart="@+id/radioButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bevakningar"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/textView11"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sok"
+        android:textColor="#ffffff"
+        android:background="#ffdf000d"
+        android:id="@+id/button3"
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/radioButton2"
+      />
+
+
+</RelativeLayout>
